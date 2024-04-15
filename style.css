@@ -195,7 +195,25 @@ main {
 
     .primeira-sessao{
         grid-column: 1 / 3;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.75rem;
     }
+
+    .primeira-sessao picture {
+        grid-column: 1 / 3;
+    }
+
+    .primeira-sessao img {
+        margin: 0;
+    }
+
+    .primeira-sessao h1 {
+        font-size: 2.5rem;
+    }
+
+    .segunda-sessao h2
 
     header > button {
         display: none;
